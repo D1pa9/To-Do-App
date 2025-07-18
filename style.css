@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  text-align: center;
+  padding: 40px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button.complete {
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.delete {
+  background: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
